@@ -10,7 +10,6 @@ const triggers = document.querySelectorAll('.menu > li');
     const dropdown = this.querySelector('.dropdown');
     const dropdownCoords = dropdown.getBoundingClientRect();
     const navCoords = nav.getBoundingClientRect();
-    console.log(navCoords);
     const coords = {
       height: dropdownCoords.height,
       width: dropdownCoords.width,
